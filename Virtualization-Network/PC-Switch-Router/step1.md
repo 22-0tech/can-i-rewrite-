@@ -1,4 +1,5 @@
 
 
 
-![ㄹ](https://github.com/22-0tech/can-i-rewrite-/raw/main/Pictur/vn.step1.png)
+![ㄹ](../../Pictur/step1/vn.step1.png)
+
