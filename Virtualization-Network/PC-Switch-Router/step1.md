@@ -1,4 +1,5 @@
-![Step1 화면](../../leviathan%28overthewire%29/Picture/step1/vn.step.png)
+(https://github.com/username/repo/raw/main/Picture/step1.png)
+
 
 
 
