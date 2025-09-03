@@ -1,6 +1,4 @@
-(https://github.com/username/repo/raw/main/Picture/step1.png)
 
 
 
-
-
+(https://github.com/22-0tech/can-i-rewrite-/raw/main/Picture/step1.png)
