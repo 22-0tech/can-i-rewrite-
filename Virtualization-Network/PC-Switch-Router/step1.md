@@ -27,8 +27,8 @@ Enter ip and gateway in pc respectively. 각 pc에 ip와 게이트웨이를 입�
 
 Enter each gateway on the router as well. 라우터에도 양쪽 게이트 웨이를 입력합니다. 
 
-**Ping test to confirm connection
-연결 확인 
+**Ping test to confirm connection (It's good to check the packet movement as well.)
+<br>*연결 확인&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  (패킷 움직임까지 확인하면 좋습니다.)
 
 
 
