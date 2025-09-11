@@ -26,4 +26,9 @@ ip add(r) : ip address + IP + MASK<br>
 no sh: no shutdown (Activation)<br>
 sh ip int br : show ip interface brief<br>
 
-![image break](../../Pictur/step2/vn.step2.2.png)
+![image break](../../Pictur/step2/vn.step2.2.png)<br>
+
+If you entered the wrong IP<br>
+Enter the interface and type no ip add(r)<br>
+ 
+만약 ip를 잘못 입력했다면, 해당 인터페이스 들어가서 no ip addr 입력
