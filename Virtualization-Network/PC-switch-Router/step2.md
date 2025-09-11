@@ -25,3 +25,5 @@ int f0/1: interface fastethernet0/1<br>
 ip add(r) : ip address + IP + MASK<br>
 no sh: no shutdown (Activation)<br>
 sh ip int br : show ip interface brief<br>
+
+![image break](../../Pictur/step2/vn.step2.2.png)
