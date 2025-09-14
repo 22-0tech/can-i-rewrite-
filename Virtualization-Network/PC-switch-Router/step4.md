@@ -2,6 +2,7 @@
 <br>
 
 
+(Packet Tracer)<br>
 
 ![image break](../../Pictur/step4/passwd-1.png) <br>
 Set the password to AAA to enter privileged mode from user mode.<br>
@@ -88,7 +89,18 @@ transport input all : 모든 원격 접속 프로토콜 허용 (SSH만 허용하
 ![image break](../../Pictur/step4/passwd-13.png) <br>
 Attempted to connect to the router via Telnet from the PC and entered the password b, but access to privileged mode failed<br>
 because the router has no enable password set.<br>
-*PC로 라우터에 텔넷 접속 비밀번호 b 입력 그러나 라우터에 비밀번호가 없으므로 관리자 모드에 진입 불가 
+*PC로 라우터에 텔넷 접속 비밀번호 b 입력 그러나 라우터에 비밀번호가 없으므로 관리자 모드에 진입 불가<br>
+
+![image break](../../Pictur/step4/passwd-14.png) <br>
+Save the running configuration from volatile memory (RAM) to non-volatile memory (NVRAM) so that the settings are retained even after a reboot.<br>
+휘발성 메모리(RAM)에서 동작 중인 설정을 비휘발성 메모리(NVRAM)에 저장해, 재부팅해도 설정을 유지<br>
+<br>
+<br>
+
+finger – Allows querying device information (typically disabled by default for security reasons).<br>
+(Only available on actual Cisco routers or advanced simulators like GNS3/EVE-NG.)<br>
+finger : 장비 정보 조회 가능 (보안적으로 기본 차단되어있음)(실제 Cisco 라우터나 GNS3/EVE-NG 같은 고급 시뮬레이터에서만 사용 가능)
+
 
 
 
