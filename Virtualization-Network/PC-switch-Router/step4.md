@@ -9,15 +9,16 @@ Set the password to AAA to enter privileged mode from user mode.<br>
 
 ![image break](../../Pictur/step4/passwd-2.png)  <br>
 The password is in uppercase letters.<br>
-비밀번호는 대문자입니다. 
+*비밀번호는 대문자입니다. 
+
 <br>
+<br
 <br>
-<br> 
 <br>
 
 ![image break](../../Pictur/step4/passwd-3.png) <br>
 When accessing the device physically or via Telnet, the password can be exposed in plain text.<br>
-장비에 물리적 접근 또는 Telnet 접속 환경에서는 비밀번호가 그대로 노출될 수 있다.
+*장비에 물리적 접근 또는 Telnet 접속 환경에서는 비밀번호가 그대로 노출될 수 있다.
 
 <br>
 <br>
@@ -33,7 +34,7 @@ service password-encryption 약한 암호화
 
 ![image break](../../Pictur/step4/passwd-5.png) <br>
 enable secret - MD5 Hash – Stronger Encryption (password=aaa)<br>
-MD5해시값으로 강한 암호화 
+*MD5해시값으로 강한 암호화 
 
 ![image break](../../Pictur/step4/passwd-6.png) <br>
 <br>
@@ -44,7 +45,7 @@ MD5해시값으로 강한 암호화
 
 ![image break](../../Pictur/step4/passwd-8.png) <br>
 Even if no service password-encryption is configured, the passwords remain encrypted.<br>
-비밀번호 해제해도 그대로 암호화 되어있음 
+*비밀번호 해제해도 그대로 암호화 되어있음 
 no service password-encryption 복호화 안 됨.
 <br>
 <br>
@@ -52,7 +53,7 @@ no service password-encryption 복호화 안 됨.
 <br>
 ![image break](../../Pictur/step4/passwd-9.png) <br>
 Removing the enable password using no enable password.<br>
-no enable password 비밀번호 해제 
+*no enable password 비밀번호 해제 
 
 <br>
 <br>
@@ -62,7 +63,7 @@ no enable password 비밀번호 해제
 
 ![image break](../../Pictur/step4/passwd-11.png) <br>
 sh run = show running-config<br>
-Password removal completed.
+*Password removal completed.
 <br>
 <br>
 
@@ -87,7 +88,7 @@ transport input all : 모든 원격 접속 프로토콜 허용 (SSH만 허용하
 ![image break](../../Pictur/step4/passwd-13.png) <br>
 Attempted to connect to the router via Telnet from the PC and entered the password b, but access to privileged mode failed<br>
 because the router has no enable password set.<br>
-PC로 라우터에 텔넷 접속 비밀번호 b 입력 그러나 라우터에 비밀번호가 없으므로 관리자 모드에 진입 불가 
+*PC로 라우터에 텔넷 접속 비밀번호 b 입력 그러나 라우터에 비밀번호가 없으므로 관리자 모드에 진입 불가 
 
 
 
