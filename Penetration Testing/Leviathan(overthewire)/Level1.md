@@ -20,6 +20,6 @@ There is a very long line. It looks complicated, but it doesn’t seem necessary
 <br>
 <br>
 
-
+![image break](/Pictur/Level-1/levia-4.png) <br>
 The password is on line 1049.(cat -n)<br>
 1049행에 비밀번호가 있습니다. 
