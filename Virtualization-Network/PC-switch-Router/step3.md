@@ -7,3 +7,4 @@ Router = a device that connects different networks and facilitates communication
 서로 다른 네트워크의 PC들을 서로 통신할 수 있게 라우터가 연결합니다.<br>
 라우터 CLI에 각각의 네트워크 정보들을 입력합니다.
 
+만약 스위치에 IP입력한다면 
