@@ -37,7 +37,7 @@ After configuring the gateway, remote Telnet access can be enabled.<br>
 <br>
 <br>
 
-![image break](../../Pictur/step5/differentnet.7.png)<br>
+![image break](../../Pictur/step5/different-net.7.png)<br>
 **For more efficient network management, the two networks on the left can be combined.<br>
 네트워크 관리 효율을 위해 왼쪽 두 개 대역을 축약할 수 있습니다. 
 
