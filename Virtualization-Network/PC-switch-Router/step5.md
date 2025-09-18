@@ -30,7 +30,8 @@ An IP address can also be assigned to a switch. The default interface is VLAN1.<
 
 ![image break](../../Pictur/step5/differentnet.6.png)<br>
 After configuring the gateway, remote Telnet access can be enabled.<br>
-게이트웨이를 입력 후 원격으로 telnet 접속하게 할 수 있습니다. 
+게이트웨이를 입력 후 원격으로 telnet 접속하게 할 수 있습니다. <br>
+** login local
 
 <br>
 <br>
