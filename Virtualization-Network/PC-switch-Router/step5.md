@@ -43,3 +43,26 @@ After configuring the gateway, remote Telnet access can be enabled.<br>
 네트워크 관리 효율을 위해 왼쪽 두 개 대역을 축약할 수 있습니다. 
 
 ![image break](../../Pictur/step5/differentnet.8.png)<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+* For reference 참고<br>
+
+Security 보안
+
+NTP Synchronization: Important for quickly identifying the cause in case of failures.<br>
+NTP 동기화: 장애 발생 시 빠른 원인 파악에 중요<br>
+Command: ntp server <IP> → Synchronizes the time between the server and the client.<br>
+명령어: ntp server IP → 서버와 클라이언트 시간 일치
+<br>
+<br>
+The AUX port is a auxiliary (backup) port. 예비 포트<br>
+Switch(config)#line aux 0<br>
+Switch(config-line)#transport input/output none 입출력 차단 <br>
+Switch(config-line)#no password<br>
+Switch(config-line)#exec-timeout 0 1  ← Automatically logs out if there is no input for 1 second.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1초 동안 입력 없으면 자동으로 로그아웃
