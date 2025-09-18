@@ -2,7 +2,7 @@
 
 **OSI 7 Layers 
 
-![image break](../Pictur/step6/OSI7.png) <br>
+![image break](../../Pictur/step6/OSI7.png) <br>
 ISO proposed the OSI model to standardize network communications by dividing them into seven layers.
 
 1.Physical Layer: Converts bits (0s and 1s) into electrical signals or light for transmission.<br>
