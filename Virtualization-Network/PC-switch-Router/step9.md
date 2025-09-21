@@ -2,7 +2,7 @@
 <br>
 <br>
 
--Static<br>
+- Static<br>
 
 
 
@@ -28,7 +28,7 @@ To undo it, use no ip nat inside source static.<br>
 <br>
 
 
--Dynamic<br>
+- Dynamic<br>
 <br>
 
 
@@ -43,6 +43,30 @@ Finally, apply dynamic NAT using the pool.<br>
 ㅡ NAT 풀 생성 (이름 B)<br>
 ㅡ ACL 생성<br>
 ㅡ 동적 NAT 풀 적용<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+- PAT<br>
+
+When no pool is used, each internal IP is distinguished by its external port number.<br>
+*pool 없이 외부포트 번호로 (포트 번호 다르면 내부 IP 다름)
+
+(GNS3)
+
+![image break](../../Pictur/step8/NAT.1.png) <br>
+
+
+
+
+
+
+
+![image break](../../Pictur/step9/NAT.5.png) <br>
+
 
 
 
