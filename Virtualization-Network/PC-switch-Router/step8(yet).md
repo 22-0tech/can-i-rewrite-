@@ -14,7 +14,7 @@ A technology that translates private IP addresses into public IP addresses.<br>
 -Converts multiple IP addresses into a single IP → Partially alleviates the problem of IP address exhaustion.<br>
 여러 개의 IP를 하나의 IP로 변환 → 주소 고갈 문제 일정 부분 해소
 
-(gns3)
+(GNS3)
 
 ![image break](../../Pictur/step8/NAT.1.png) <br>
 
