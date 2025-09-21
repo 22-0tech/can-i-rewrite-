@@ -1,10 +1,14 @@
 ** NAT<br>
 <br>
-<br>
+Three types ;
 
 - Static<br>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 (Packet Tracer)
 ![image break](../../Pictur/step9/NAT.2t.png) <br>
