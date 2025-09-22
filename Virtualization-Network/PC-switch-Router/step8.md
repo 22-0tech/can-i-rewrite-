@@ -67,4 +67,14 @@ When no pool is used, each internal IP is distinguished by its external port num
 
 
 ![image break](../../Pictur/step8/NAT.4.png) <br>
+First, configure the interface.<br>
+Next, apply PAT (Port Address Translation).<br>
+Finally, define an ACL (specifying the internal IP range for NAT).<br>
+
+ㅡ 인터페이스 설정<br>
+ㅡ PAT 적용<br>
+ㅡ ACL정의 ( NAT 대상 내부 IP 범위) <br>
+
+
+
 (f2/0 = f0/1,only here)
