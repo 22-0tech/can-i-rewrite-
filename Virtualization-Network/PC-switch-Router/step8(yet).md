@@ -67,4 +67,4 @@ When no pool is used, each internal IP is distinguished by its external port num
 
 
 ![image break](../../Pictur/step8/NAT.4.png) <br>
-(f2/0 = f0/1(
+(f2/0 = f0/1,only here)
