@@ -1,7 +1,10 @@
 ** DHCP<br> 
 
 A protocol that automatically assigns IP addresses and related configurations.<br>
-IP 주소와 관련 설정을 자동으로 할당하는 프로토콜
+IP 주소와 관련 설정을 자동으로 할당하는 프로토콜<br>
+
+
+(Packet Tracer)
 
 ![image break](../../Pictur/step7/DHCP.R.1.png) <br>
 Trying to obtain an IP address from the router.<br>
