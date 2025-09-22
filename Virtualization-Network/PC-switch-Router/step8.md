@@ -50,3 +50,21 @@ Finally, specify internal IPs with an ACL.<br>
 ㅡ NAT 변환 규칙 적용<br>
 ㅡ ACL로 내부 IP 지정<br>
 
+
+* PAT<br>
+
+When no pool is used, each internal IP is distinguished by its external port number.<br>
+*pool 없이 외부포트 번호로 (포트 번호 다르면 내부 IP 다름)
+
+(GNS3)
+
+![image break](../../Pictur/step8/NAT.1.png) <br>
+
+
+
+
+
+
+
+![image break](../../Pictur/step9/NAT.5.png) <br>
+
