@@ -18,14 +18,14 @@ A technology that translates private IP addresses into public IP addresses.<br>
 
 Three types ;
 
-
+<br>
 
 
 (GNS3)
 
 ![image break](../../Pictur/step8/NAT.1.png) <br>
 
-*Static NAT
+* Static NAT
 
 
 ![image break](../../Pictur/step8/NAT2.png) <br>
@@ -35,7 +35,7 @@ When 192.168.1.2 goes out to the external network, it is translated to 10.1.1.10
 192.168.1.2 가 외부로 나갈때, 10.1.1.102 로 변환<br>
 
 
-*Dynamic NAT
+* Dynamic NAT
 
 ![image break](../../Pictur/step8/NAT3.png) <br>
 Erase the previous configuration.<br>
