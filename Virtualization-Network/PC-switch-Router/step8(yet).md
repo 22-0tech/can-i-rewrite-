@@ -31,10 +31,15 @@ When 192.168.1.2 goes out to the external network, it is translated to 10.1.1.10
 Dynamic NAT
 
 ![image break](../../Pictur/step8/NAT3.png) <br>
+Erase the previous configuration.<br>
+기존 설정 삭제 <br>
+<br>
 
-기존 설정 삭제 
+First, create a NAT pool.<br>
+Next, apply NAT translation rules.<br>
+Finally, specify internal IPs with an ACL.<br>
 
-ㅡ NAT 풀 생성
-ㅡ NAT 변환 규칙 적용
-ㅡ ACL로 내부 IP 지정
+ㅡ NAT 풀 생성<br>
+ㅡ NAT 변환 규칙 적용<br>
+ㅡ ACL로 내부 IP 지정<br>
 
