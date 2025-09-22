@@ -16,7 +16,7 @@ A technology that translates private IP addresses into public IP addresses.<br>
 <br>
 <br>
 
-Three types ;
+ Three types ;
 
 <br>
 
