@@ -58,13 +58,13 @@ When no pool is used, each internal IP is distinguished by its external port num
 
 (GNS3)
 
+![image break](../../Pictur/step8/NAT.1.png) <br>
+
+
+
+
+
+
+
 ![image break](../../Pictur/step8/NAT.4.png) <br>
-
-
-
-
-
-
-
-![image break](../../Pictur/step9/NAT.5.png) <br>
-
+(f2/0 = f0/1(
