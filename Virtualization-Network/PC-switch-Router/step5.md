@@ -52,7 +52,7 @@ After configuring the gateway, remote Telnet access can be enabled.<br>
 
 * For reference 참고<br>
 
-Security 보안
+*Security 보안
 
 NTP Synchronization: Important for quickly identifying the cause in case of failures.<br>
 NTP 동기화: 장애 발생 시 빠른 원인 파악에 중요<br>
