@@ -1,4 +1,7 @@
-**Leviathan =          
+**Leviathan 
+
+Privilege escalation and vulnerability practice<br>
+권한 상승 및 취약점 실습
 <br>
 <br>
 <br>
