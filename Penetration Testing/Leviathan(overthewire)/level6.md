@@ -18,7 +18,7 @@ x/u $ebp-0xc 변수값 메모리 보기 7123이네요.
 It is also possible to enter the values one by one in the terminal.<br>
 터미널에 하나씩 값을 입력하는 방법도 있습니다. 
 
-![image break](/Pictur/Level6/levia-6.png) <br>
+![image break](/Pictur/Level6/levia6.png) <br>
 It stops at the same point, 7123.<br>
 똑같이 7123번에서 멈춥니다.
 
