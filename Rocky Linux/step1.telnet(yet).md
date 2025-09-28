@@ -47,9 +47,18 @@ why-systemctl > controlling systemd > daemon(Server)
 <br>
 5.Attempting a Connection 연결 시도 (0 = local)<br>
 ![image break](../Pictur/step1/telnet-8.png)
-![image break](../Pictur/step1/telnet-9.png)
+![image break](../Pictur/step1/telnet-9.png)<br>
 
 
+<br>
+<br>
+
+* 만약 재부팅 후에도 켜지도록 설정 하고싶다면
+
+systemctl enable telnet.socket
+
+
+firewall-cmd --runtime-to-permanent
 
 
 
