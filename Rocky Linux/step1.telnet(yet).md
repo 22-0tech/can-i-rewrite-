@@ -53,12 +53,14 @@ why-systemctl > controlling systemd > daemon(Server)
 <br>
 <br>
 
+**If it is required to remain enabled after a reboot, this command is used.
 * 만약 재부팅 후에도 켜지도록 설정 하고싶다면
 
-systemctl enable telnet.socket
 
+![image break](../Pictur/step1/telnet10.png)<br>
 
-firewall-cmd --runtime-to-permanent
+Server and firewall.<br>
+서버와 방화벽 
 
 
 
