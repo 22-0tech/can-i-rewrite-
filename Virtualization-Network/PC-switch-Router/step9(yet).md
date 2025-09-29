@@ -16,6 +16,7 @@ When identical IPs exist in both internal and external networks causing a confli
 ![image break](../../Pictur/step9/NAT7.png) <br>
 
 ![image break](../../Pictur/step9/NAT8.png) <br>
+<br>
 
 ![image break](../../Pictur/step9/NAT9.png) <br>
 -Since the destination is predetermined, list-100 is used. (ACL rule)<br>
