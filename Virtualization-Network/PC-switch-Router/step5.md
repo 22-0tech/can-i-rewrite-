@@ -26,7 +26,29 @@ Enter them into each router.<br>
 
 ![image break](../../Pictur/step5/differentnet.5.png)<br>
 An IP address can also be assigned to a switch. The default interface is VLAN1.<br>
-스위치에도 ip입력을 할 수 있습니다. 기본 인터페이스는 Vlan1입니다. 
+스위치에도 ip입력을 할 수 있습니다. 기본 인터페이스는 Vlan1입니다.<br>
+
+
+It is also possible to convert a physical port to a routed port (using the no switchport command).<br>
+** However, from this point, the device functions as a router, so routes must be registered in the routing table.<br>
+- 물리 포트를 routed port로 변환도 가능(no switch port라는 명령어 이용)<br>
+- 단, 이때부터 라우터 역할이므로 테이블 경로 등록해야함.<br>
+- <br>
+- <br>
+-
+-
+-
+-
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
 
 ![image break](../../Pictur/step5/differentnet.6.png)<br>
 After configuring the gateway, remote Telnet access can be enabled.<br>
