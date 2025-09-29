@@ -1,6 +1,15 @@
-**ssh-keygen
+**SSH-keygen
 
-공개키는 rsa기반을 만들어져 안전 비밀번호보다 안전하며 편리합니다.
+
+Public keys are more secure and convenient than passwords (using the RSA encryption method).<br>
+공개키는 비밀번호보다 안전하며 편리합니다.(RSA 암호화 방식)<br>
+<br>
+<Br>
+<Br>
+
+
+
+
 
 
 id_rsa, id_rsa.pub 파일 확인
