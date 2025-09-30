@@ -52,11 +52,6 @@ Files can be downloaded.<br>
 <br>
 <br>
 
-
-![image break](../Pictur/step3/ftp7.png)<br>
-
-It can be observed that the default port used is 20.<br>
-기본 포트는 20번을 사용하는 걸 알 수 있습니다.<br>
 <br>
 <br>
 <br>
