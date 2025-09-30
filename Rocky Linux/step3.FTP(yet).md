@@ -1,6 +1,22 @@
 **FTP
 
 
+
+![image break](../Pictur/step3/ftp1.png)<br>
+![image break](../Pictur/step3/ftp2.png)<br>
+
+
+![image break](../Pictur/step3/ftp3.png)<br>
+
+![image break](../Pictur/step3/ftp4.png)<br>
+
+
+
+
+
+
+
+
 FileZilla 설치 후 구축한 FTP 서버에 접속
 
 
