@@ -1,16 +1,6 @@
 **FTP
 
 
-rpm -qa | grep ftp
-
-
-
-systemctl --now enable vsftpd
-
- vsftpd
-FTP 클라이언트는 vsftpd가 아닌 ftp로 설치
-
-
 FileZilla 설치 후 구축한 FTP 서버에 접속
 
 
