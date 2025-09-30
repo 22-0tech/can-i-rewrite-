@@ -1,6 +1,6 @@
 ![image break](/Pictur/Level6/levia1.png)<br>
 A 4-digit number is required. To find the variable value, gdb must be used, as it provides more detailed information than ltrace.<br>
-4자리 숫자 입력 요구, ltrace보다 더 자세한 gdb를 이용해 변수값을 찾아야 합니다. 
+4자리 숫자 입력 요구, 변수 값을 찾기 위해 ltrace보다 더 자세한 gdb를 이용합니다.
 
 ![image break](/Pictur/Level6/levia2.png)<br>
 Check the assembly code.<br>
