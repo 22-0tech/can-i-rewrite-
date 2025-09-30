@@ -19,16 +19,15 @@ Verify the locations of the public and private key files.<br>
 
 
 ![image break](../Pictur/step1/SSH12.png)<br>
-
-공개키 전달 명령어 : ssh-copy-id user@서버 IP 
+Public key transfer command: ssh-copy-id user@<server_IP><br>
+공개키 전달 명령어 : ssh-copy-id user@서버 IP <br>
 
 
 
 
 
 ![image break](../Pictur/step1/SSH12.png)<br>
-
-
+It can be confirmed that the public key has been sent.<br>
 공개키가 보내진 걸 알 수 있습니다.
 
 ![image break](../Pictur/step1/SSH13.png)<br>
@@ -38,15 +37,15 @@ vi /etc/ssh/sshd_config <br>
 
 
 ![image break](../Pictur/step1/SSH14.png)<br>
-
+It can be confirmed that the default port is 22, and it is changed to allow public key authentication.<br>
 기본 포트가 22번인 걸 확인할 수 있으며, 공개키 허용으로 바꿔줍니다.
 
 
 ![image break](../Pictur/step1/SSH15.png)<br>
+This determines whether root login and password-based login are allowed.<br>
+루트로 로그인 허용과 비밀번호 입력으로 로그인 허용 여부입니다.<br>
 
-루트로 로그인 허용과 비밀번호 입력으로 로그인 허용 여부입니다.
-
-
+*Save and exit in vi.<br>
 vi 저장 후 나가기<br>
 Esc<br>
 :wq = :x
@@ -54,6 +53,7 @@ Esc<br>
 
 ![image break](../Pictur/step1/SSH16.png)<br>
 
+위에서 설정했던대로 rocky로 로그인시 공개키로 로그인 됐습니다.
 
 firewall-cmd --add-port=50001/tcp
 
