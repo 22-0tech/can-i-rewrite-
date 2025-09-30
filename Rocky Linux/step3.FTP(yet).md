@@ -1,15 +1,33 @@
 **FTP
-
-
+<br>
+<br>
 
 ![image break](../Pictur/step3/ftp1.png)<br>
+After searching for the FTP package, no results are displayed. The server will be installed first.<br>
+ftp패키지를 검색한 후 출력된 결과물이 없습니다. 서버부터 설치합니다.<br>
+<br>
+
+
+
+
+
 ![image break](../Pictur/step3/ftp2.png)<br>
-
-
+Next, the client is installed.<br>
+그 다음 클라이언트를 설치합니다.<br>
+<br>
 ![image break](../Pictur/step3/ftp3.png)<br>
+Installation is complete.<br>
+모두 설치가 완료됐습니다.<br>
+<br>
+
 
 ![image break](../Pictur/step3/ftp4.png)<br>
-
+FTP is also allowed through the firewall.<br>
+ftp 방화벽도 허용합니다.<br>
+<br>
+<br>
+<Br>
+<Br>
 
 
 
