@@ -28,8 +28,23 @@ Public key transfer command: ssh-copy-id user@<server_IP><br>
 
 ![image break](../Pictur/step1/SSH12.png)<br>
 It can be confirmed that the public key has been sent.<br>
-공개키가 보내진 걸 알 수 있습니다.
+공개키가 보내진 걸 알 수 있습니다.<br>
+<br>
+<Br>
+<br>
 
+----------- This concludes the client-side configuration.
+여기까지가 클라이언트의 설정입니다. 
+<br>
+<Br>
+<br>
+<br>
+<br>
+
+* Server configuration begins. 서버 설정 시작
+<br>
+<br>
+<Br>
 ![image break](../Pictur/step1/SSH13.png)<br>
 SSH 접근 제어
 vi /etc/ssh/sshd_config <br>
@@ -52,23 +67,36 @@ Esc<br>
 
 
 ![image break](../Pictur/step1/SSH16.png)<br>
+As configured above, logging in as rocky is now done using the public key.<br>
+위에서 설정했던대로 rocky로 로그인시 공개키로 로그인 됐습니다.<br>
+<br>
 
-위에서 설정했던대로 rocky로 로그인시 공개키로 로그인 됐습니다.
 
-firewall-cmd --add-port=50001/tcp
+*completed<br>
+완료<br>
+<br>
+<br>
+<br>
+<br>
+<Br>
 
 
-Rocky 9 SSHD 설정 파일 변화
-/etc/ssh/sshd_config.d
-설정을 일부분 떼어서 추가적으로 보관
 
-root로 원하는 유저에게 sudo 권한 부여
-visudo
-111행
-4gl   ALL=(ALL)   NOPASSWD: ALL
-(vi에서 행 번호를 출력
-:set number
-:set nu
-)
+![image break](../Pictur/step1/SSH17.png)<br>
+If the port number is changed to 49999, the port must be opened.<br>
+만약 포트 번호를 49999로 바꿨다고 하면, 해당 포트를 열어줘야합니다.<br>
+
+command : firewall-cmd --add-port=49999/tcp<br>
+<br>
+<br>
+
+
+
+![image break](../Pictur/step1/SSH18.png)<br>
+
+To grant rocky administrative privileges, configure it as shown above.<br>
+만약 rocky에게 관리자 권한을 주고 싶으면 위와 작성하면 됩니다.
+
+
 
 
