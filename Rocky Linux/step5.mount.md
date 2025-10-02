@@ -57,7 +57,6 @@ A file system (format) must be created on the newly created partitions.<br>
 
 There are four types of file systems: ext2, ext3, ext4, and xfs.<br>
 Modern Linux primarily uses ext4, while xfs is employed for large-capacity or specialized use cases.<br>
-
 파일 시스템은 ext2, ext3, ext4, xfs 4종류가 있습니다.<br>
 최신 리눅스는 etx4를 주로 이용하며 대용량 같은 용도에 따라서 xfs를 이용합니다.<br>
 
