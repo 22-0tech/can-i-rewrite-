@@ -1,5 +1,7 @@
-** openssl, s_client
-
+** openssl s_client
+<BR>
+<BR>
+<BR>
 
 ![image break](/Pictur/Level15/bandit1.png) <br>
 A connection is made to localhost on port 30001 using SSL/TLS-encrypted communication.<br>
