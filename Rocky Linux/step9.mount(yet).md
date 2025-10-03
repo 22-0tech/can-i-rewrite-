@@ -83,11 +83,22 @@ Before mounting, a directory is created to serve as the mount point. The mount p
 
 
 
+![image break](../Pictur/step5/mount-8.png)<br>
+<br>
+
+
 
 
 ㅡ vi /etc/fstab
 
-![image break](../Pictur/step5/mount-8.png)<br>
-<br>
+
+
+
+
+
+
+
+
+
 *completed<br>
 완료
