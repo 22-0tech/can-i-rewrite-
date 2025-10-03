@@ -80,8 +80,12 @@ It is possible to verify that each file system has been applied correctly.<br>
 ![image break](../Pictur/step5/mount7.png)<br>
 Before mounting, a directory is created to serve as the mount point. The mount point is a directory.<br>
 마운트 하기 전에 어디에 마운트 할 건지 디렉토리를 만듭니다. 마운트 포인트는 디렉토리입니다.<br>
-<br>
-<br>
+
+
+
+
+
+ㅡ vi /etc/fstab
 
 ![image break](../Pictur/step5/mount-8.png)<br>
 <br>
