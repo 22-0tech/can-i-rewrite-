@@ -1,6 +1,6 @@
 ** LINK<br>
 <br>
-A file = filename + inode + data blocks.
+A file = filename + inode + data blocks.<br>
 파일 = 파일명 + inode + 데이터 블록으로 구성
 
 
