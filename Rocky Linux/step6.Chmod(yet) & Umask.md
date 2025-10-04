@@ -30,6 +30,11 @@ why-Security) 파일일 경우 기본 권한이 666으로 되어있습니다. �
 
 **특수권한
 
+4  SetUID
+
+2  SetGID
+
+1 Sticky bit
 
 
 
