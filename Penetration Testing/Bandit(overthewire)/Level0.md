@@ -1,7 +1,7 @@
 **Bandit <br>
 <br>
 
-Unix/Linux basics<br>
+*Unix/Linux basics<br>
 리눅스 / 유닉스 기본 개념 학습<br>
 <br>
 <br>
