@@ -1,8 +1,8 @@
 **Bandit <br>
 <br>
 
-Learning basic Linux/Unix command-line skills and security principles.<br>
-리눅스 / 유닉스 기본 명령어 및 보안 개념 학습<br>
+Unix/Linux basics<br>
+리눅스 / 유닉스 기본 개념 학습<br>
 <br>
 <br>
 
