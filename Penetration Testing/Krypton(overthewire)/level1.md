@@ -1,8 +1,8 @@
 ** Krypton <br>
 <br>
 <br>
-*Basic study of cryptography<br>
-암호학 기초 학습
+*cryptography<br>
+암호학 
 
 
 <br>
