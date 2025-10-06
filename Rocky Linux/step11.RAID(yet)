@@ -1,0 +1,52 @@
+
+1+6
+
+
+
+
+mdadm --create /dev/md1 --level=1 --raid-devices=2 /dev/sdf1 /dev/sdg1
+
+mdadm --create /dev/md2 --level=1 --raid-devices=2 /dev/sdh1 /dev/sdi1
+
+
+mdadm --create /dev/md10 --level=0 --raid-devices=2 /dev/md1 /dev/md2
+
+mkfs.xfs /dev/md10
+mkdir /raid10
+mount /dev/md10 /raid10
+
+
+
+
+
+1.
+마운트 해제
+umount /dev/md10
+
+
+
+
+2.레이드 어레이 중지
+mdadm --stop /dev/md10
+mdadm --stop /dev/md1
+mdadm --stop /dev/md2
+
+
+
+3.
+레이드 장치의 메타데이터 삭제
+mdadm --zero-superblock /dev/sdf1
+mdadm --zero-superblock /dev/sdg1
+mdadm --zero-superblock /dev/sdh1
+mdadm --zero-superblock /dev/sdi1
+
+
+
+
+mdadm --detail --scan
+/dev/md127 clean, degraded
+/dev/md126 clean, degraded
+
+
+
+논리 파티션은 확장 파티션 안에 있는 파티션
