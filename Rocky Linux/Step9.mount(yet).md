@@ -92,9 +92,10 @@ Before mounting, a directory is created to serve as the mount point. The mount p
 ㅡ vi /etc/fstab
 
 
+/dev/sdb1  /my1    ext4    defaults  0 0
+/dev/sdc1  /my2    xfs     defaults  0 0
 
-
-
+##사진 
 
 
 
