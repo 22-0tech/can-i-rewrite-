@@ -1,8 +1,10 @@
-Linear
-0
-1
-2
-3
+RAID 레벨	     최소 디스크 수  	장점
+Linear / JBOD   	1	            용량 합산, 단순
+RAID 0	          2	            성능 향상, 용량 합산
+RAID 1          	2	           데이터 보호(미러링)
+RAID 5           	3	           데이터 보호(1개 디스크), 읽기 성능 ↑, 용량 효율 좋음
+RAID 6            4	     데이터 보호(2개 디스크), 읽기 성능 ↑
+RAID 10          	4	           데이터 보호 + 성능 향상 (미러링+스트라이핑)
 
 
 
@@ -16,8 +18,7 @@ Linear
 
 
 
-
-mdadm--create /dev/md? --level=? --raid-devices=? /dev/sd? /dev/sd?
+mdadm--create /dev/md1 --level=? --raid-devices=? /dev/sd1 /dev/sd1
 
 
 
