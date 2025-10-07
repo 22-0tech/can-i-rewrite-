@@ -16,22 +16,22 @@ RAID 10          	4	           데이터 보호 + 성능 향상 (미러링+스�
 
 
 
+파티션을 레벨 Linear로 합치는 명령어입니다.
+
+mdadm--create /dev/md5 --level=Linear --raid-devices=2 /dev/sd1 /dev/sd1
 
 
-mdadm--create /dev/md1 --level=? --raid-devices=? /dev/sd1 /dev/sd1
-
-
-
-
-
-
+##사진
 
 
 
 
 
 
-mdadm --detail /dev/md?
+
+
+
+mdadm --detail /dev/md5
 
 mdadm --detail --scan
 전체 레이드 보기
