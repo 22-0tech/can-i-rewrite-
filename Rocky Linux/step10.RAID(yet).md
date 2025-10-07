@@ -21,8 +21,9 @@ RAID 10          	4	           데이터 보호 + 성능 향상 (미러링+스�
 mdadm--create /dev/md5 --level=Linear --raid-devices=2 /dev/sdb1 /dev/sdc1
 
 
-
 mdadm--create /dev/md6 --level=6 --raid-devices=4 /dev/sdd1 /dev/sde1 /dev/sdf1 /dev/sdg1
+
+mdadm --detail --scan > /etc/mdadm.conf
 
 
 ##사진
