@@ -25,6 +25,7 @@ mdadm--create /dev/md6 --level=6 --raid-devices=4 /dev/sdd1 /dev/sde1 /dev/sdf1 
 
 mdadm --detail --scan > /etc/mdadm.conf
 
+mdadm --detail 또는 cat /proc/mdstat
 
 ##사진
 
