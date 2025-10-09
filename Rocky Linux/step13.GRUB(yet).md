@@ -24,3 +24,14 @@ init + 런레벨 = 시스템 상태 즉시 변경
 
 런레벨 2, 3, 4 → CLI 모드, 다중 사용자 모드
 
+
+
+vi /etc/grub.d/00_header
+cat << EOF
+set superusers="mylinux"
+password mylinux 1234
+EOF
+
+적용
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
