@@ -14,7 +14,8 @@ Mounting is connecting a computer so that it can read and write files on a USB d
 
 
 
-1. Disk is checked 디스크 확인
+1. Disk is checked 디스크 확인<br>
+
 
 ![image break](../Pictur/step5/mount1.png)<br>
 There are disks sdb and sdc.<br>
@@ -85,20 +86,20 @@ Before mounting, a directory is created to serve as the mount point. The mount p
 
 ![image break](../Pictur/step5/mount-8.png)<br>
 <br>
+<br>
+<br>
 
 
 
 
-ㅡ vi /etc/fstab
+ㅡ vi /etc/fstab<br>
 
+![image break](../Pictur/step5/mount9.png)<br>
+Written this way, it is stored on the disk, so it remains effective after reboot.<br>
+이렇게 작성하면 디스크에 저장되므로, 재부팅 후에도 적용됩니다. <br>
 
-/dev/sdb1  /my1    ext4    defaults  0 0
-/dev/sdc1  /my2    xfs     defaults  0 0
-
-##사진 
-
-
-
+/dev/sdb1  /my1    ext4    defaults  0 0<br>
+/dev/sdc1  /my2    xfs     defaults  0 0<br>
 
 
 *completed<br>
