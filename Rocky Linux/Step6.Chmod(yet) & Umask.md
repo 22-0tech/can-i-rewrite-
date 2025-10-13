@@ -3,35 +3,63 @@
 
 File access permission change command<br>
 파일 접근 권한 변경 명령어<br>
+<br>
+<br>
 
 
-(기호 모드 = 상대적 모드
-숫자 모드 = 절대적 모드)
-
-리눅스 파일에는 읽기,쓰기,실행 접근 권한이 있는데 
-접근 권한을 2가지로 표현할 수 있습니다. 
-
-ㅡ 문자나 기호를 이용할 수도 있습니다.
-
-ㅡ 8진수 숫자를 이용한 rwx = 7 (4+2+1)방법이 있습니다. 
-
-## 사진 700
-
-
-**Umask
+ㅡ 리눅스 파일에는 읽기(r),쓰기(w),실행(x) 접근 권한이 있는데<br>
+접근 권한을 2가지로 표현할 수 있습니다.<br>
+<br>
 
 <br>
-기본 권한에서 빼는 값
+
+* 문자 & 기호를 이용한 방법<br>
+<br>
+
+![image break](../Pictur/step6/chmod-1.png)<br>
+
+
+모든 사용자(all)에게 읽을 권한(r)<br>
+
+![image break](../Pictur/step6/chmod-2.png)<br>
+
+
+![image break](../Pictur/step6/chmod-3.png)<br>
+
+
+<br>
+<br>
+
+
+파일 소유자(u)에게만 실행(x) 권한<br>
+
+![image break](../Pictur/step6/chmod-4.png)<br>
+
+![image break](../Pictur/step6/chmod-5.png)<br>
+
+
+* 8진수 숫자를 이용한 방법 4(r),2(w),1(x) <br>
+
+![image break](../Pictur/step6/chmod-6.png)<br>
+<br>
+<br>
+
+
+**Umask<br>
+
+<br>
+기본 접근 권한을 변경하여 출력하는 값
 
 umask는 기본적으로 022
 
-##사진
+![image break](../Pictur/step6/umask1.png)<br>
 
-why-Security) 파일일 경우 기본 권한이 666으로 되어있습니다. 생성시에 실행 권한이 없습니다.
+
+why-Security 파일의 경우 기본 권한이 666으로 되어있습니다. 생성시에 실행 권한이 없습니다.
 666-022=644 이 값으로 파일이 처음 생성될 때 만들어집니다. 
 
 
-디렉터리의 경우도 777-022=755 이 값으로 파일이 처음 생성될 때 만들어집니다.
+디렉터리의 경우 기본 권한이 777입니다. umask값만큼 빠진 후 생성됩니다.
 
 
 **special permissions<br>
