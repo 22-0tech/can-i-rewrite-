@@ -13,9 +13,8 @@ There is a private key to access 26; a connection will be established.<br>
 26으로 가는 개인키가 있습니다. 접속하겠습니다.<br>
 
 ![image break](/Pictur/Level25/bandit2.png) <br>
-The connection was terminated immediately upon connecting. The login shell will be checked first.<br>
-접속하자마자 끊겼습니다. 로그인 쉘 먼저 확인합니다.<br>
-<br>
+The connection was terminated immediately after access. It seems checking the login shell should be the first step.<br>
+접속하자마자 끊겼습니다. 로그인 쉘을 확인하는 게 우선인거 같습니다.<br>
 
 ![image break](/Pictur/Level25/bandit3.png) <br>
 The shell is set to "showtext"; <br>
