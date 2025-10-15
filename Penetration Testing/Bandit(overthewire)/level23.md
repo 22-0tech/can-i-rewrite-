@@ -8,7 +8,7 @@
 The next step is 24, so files related to 24 are checked.<br>
 The key point is that the script runs every minute under the bandit24 account.<br>
 다음 단계가 24이기 때문에 24관련 파일을 봅니다.<br>
-Key-매 분마다 스크립트가 실행되는데 bandit24 권한으로 실행되는 게 핵심입니다.<br>
+*Key-매 분마다 스크립트가 실행되는데 bandit24 권한으로 실행되는 게 핵심입니다.<br>
 
 ![image break](/Pictur/Level23/bandit2.png) <br>
 It moves to the folder and executes the files.<br>
