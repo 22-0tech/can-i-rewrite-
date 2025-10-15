@@ -14,7 +14,8 @@ File permissions can be represented in two ways.<br>
 <br>
 
 <br>
-Using letters & symbols<br>
+
+Using letters & symbols
 * 문자 & 기호를 이용한 방법<br>
 <br>
 
@@ -43,15 +44,43 @@ Execute permission (x) for the file owner (u) only<br>
 
 ![image break](../Pictur/step6/chmod-5.png)<br>
 
-Using octal numbers: 4 (r), 2 (w), 1 (x)<br>
-* 8진수 숫자를 이용한 방법 4(r),2(w),1(x) <br>
+<br>
+Disable read access for other users<BR>
+기타 사용자(o)의 읽을(r) 권한 해제<br>
 
 ![image break](../Pictur/step6/chmod-6.png)<br>
+![image break](../Pictur/step6/chmod-7.png)<br>
+
+
 <br>
 <br>
+<br>
+<br>
+<Br>
+
+
+
+
+Using octal numbers: 4 (r), 2 (w), 1 (x)<br>
+
+* 8진수 숫자를 이용한 방법 4(r),2(w),1(x) <br>
+
+![image break](../Pictur/step6/chmod-8.png)<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
 
 
 **Umask<br>
+<br>
+<Br>
 
 The value displayed by changing the default permissions<br>
 기본 접근 권한을 변경하여 출력하는 값<br>
