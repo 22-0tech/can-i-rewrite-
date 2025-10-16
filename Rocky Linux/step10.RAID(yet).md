@@ -113,7 +113,12 @@ the configuration itself is stored on the disk, and the RAID device is automatic
 <Br>
 The commands : df -hT and blkid can be used.<br>
 df -hT 및 blkid를 활용할 수 있습니다.<br>
-
+<br>
+<Br>
+<Br>
+<Br>
+<Br>
+<Br>
 
 
 
