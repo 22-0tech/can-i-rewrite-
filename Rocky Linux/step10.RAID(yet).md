@@ -70,7 +70,6 @@ RAID 전체 장치 요약입니다.<br>
 <br>
 
 ![image break](../Pictur/step10/raid5.png)<br>
-<Br>
 If sent to /etc/mdadm.conf, it is saved on the disk and activated at boot.<br>
 /etc/mdadm.conf로 보내면 디스크에 저장되어, 부팅시에 활성화 됩니다. <BR>
 <br>
@@ -123,21 +122,51 @@ df -hT 및 blkid를 활용할 수 있습니다.<br>
 
 
 
-* Reset
-* 초기화
-
-  
-
-
-
-
-
-
-
-메타데이터 - 레이드 구성 정보를 디스크에 담고 있는 구간
+* Reset<br>
+* 초기화<br>
+<br>
+Reset can be performed by reversing the steps of the RAID mounting process.<br>
+초기화는 RAID 마운트하는 과정 반대로 진행하면 됩니다.<br>
+<br>
+<Br>
+<Br>
+<Br>
 
 
+![image break](../Pictur/step10/raid11.png)<br>
+Each mount is unmounted.<br>
+각각 마운트 해제를 합니다.<br>
+<Br>
+<Br>
+<Br>
 
 
+
+
+![image break](../Pictur/step10/raid12.png)<br>
+Next, the RAID array is stopped so that it is no longer in use.<br>
+Once stopped, it appears as a regular partition.<br>
+<Br>
+<Br>
+<Br>
+
+
+
+그 다음은, RAID 배열을 더 이상 사용하지 않도록 중지시키는 것입니다.<br>
+중지시키면, 일반 파티션처럼 보이게 됩니다.<br>
+
+![image break](../Pictur/step10/raid13.png)<br>
+By erasing the RAID information (metadata) stored on the disk,<br>
+any trace of the disk having been part of a RAID is removed.<br>
+디스크에 저장된 RAID정보 (메타데이터)를 지움으로써,<br> 
+디스크가 RAID의 일부였다는 흔적이 사라지게 됩니다.<br>
+<br>
+<br>
+<Br>
+
+
+![image break](../Pictur/step10/raid14.png)<br>
+The disks are left with only partitions, just like before the RAID was created.<br>
+RAID생성 전처럼 파티션만 남은 상태가 됩니다.<br>
 
 
