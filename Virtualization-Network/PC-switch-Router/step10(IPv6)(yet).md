@@ -80,14 +80,21 @@ R2도 똑같이 ipv6 주소 생성 후, ping을 보내고 인터페이스를 입
 
 수동으로 글로벌 주소를 입력하는 방법입니다.<br>
 앞 64 비트는 2001:DB8::, 뒤 64비트는 ::1입니다. /64는 앞 64비트는 네트워용입니다.<Br>
+<br>
+<br>
 
-
+3.<br>
+<br>
+<Br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-8.png)<br>
 
 이번에도 글로벌 주소입니다.<br>
 앞 64비트는 수동, 뒤 64비트는 MAC주소 기반 EUI-64방식으로 할당됩니다.<br>
 
+4.<br>
+<br>
+<Br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-9.png)<br>
 
@@ -96,9 +103,11 @@ Anycast주소입니다. 글로벌 주소이며, 같은 네트워크 안에 같�
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-10.png)<br>
 
+라우터1의 인터페이스 별 IPV6 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-11.png)<br>
 
+라우터2의 인터페이스 별 IPV6
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-12.png)<br>
 
@@ -108,4 +117,6 @@ Anycast주소입니다. 글로벌 주소이며, 같은 네트워크 안에 같�
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-14.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-15.png)
+
+모두 Ping 연결이 됩니다. IP 통신이 가능함을 확인할 수 있습니다.
 
