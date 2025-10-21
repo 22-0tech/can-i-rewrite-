@@ -64,12 +64,13 @@ enable을 이용해 자동으로 로컬 주소를 생성할 수 있습니다.<br
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-5.png)<br>
 
-R2도 똑같이 ipv6 주소 생성 후 ping을 보내면 
+R2도 똑같이 ipv6 주소 생성 후, ping을 보내고 인터페이스를 입력해야 합니다..<br>
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-16.png)<br>
 
+같은 로컬 주소를 생성하는데, 이번엔 수동으로 입력하는 방법입니다.<br>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-6.png)<br>
