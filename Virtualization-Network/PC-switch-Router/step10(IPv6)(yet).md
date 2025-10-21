@@ -34,7 +34,7 @@
 <Br>
 <Br>
 
-(GNS3
+(GNS3)
 
 ![image break](../../Pictur/step10/ipv6-2.png)<br>
 
@@ -47,48 +47,55 @@
 
 
 
-*Why-기본이 ipv4입니다. 유니캐스트를 사용하는 ipv6 등록이 필요합니다.<br>
+*Why-기본이 ipv4입니다.<br>
+ipv6 등록이 필요합니다. 유니캐스트를 기본으로 사용합니다.<br>
 
 
 
 <br>
 <br>
+1.<br>
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-4.png)<br>
+
+enable을 이용해 자동으로 로컬 주소를 생성할 수 있습니다.<br>
+로컬 주소는 같은 네트워크 안에서만 통신이 가능합니다.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-5.png)<br>
+
+R2도 똑같이 ipv6 주소 생성 후 ping을 보내면 
 
 
-![image break](../../Pictur/step10/ipv6-4.png)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-16.png)<br>
 
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-6.png)<br>
 
 
-
-![image break](../../Pictur/step10/ipv6-5.png)<br>
-
-
-![image break](../../Pictur/step10/ipv6-6.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-7.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-7.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-8.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-8.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-9.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-9.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-10.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-10.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-11.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-11.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-12.png)<br>
 
 
-![image break](../../Pictur/step10/ipv6-12.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-13.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-14.png)
 
-![image break](../../Pictur/step10/ipv6-13.png)
-
-![image break](../../Pictur/step10/ipv6-14.png)
-
-![image break](../../Pictur/step10/ipv6-15.png)
+&nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-15.png)
 
