@@ -72,23 +72,27 @@ R2도 똑같이 ipv6 주소 생성 후, ping을 보내고 인터페이스를 입
 
 같은 로컬 주소를 생성하는데, 이번엔 수동으로 입력하는 방법입니다.<br>
 <br>
-<br>
-<br>
+<Br>
 
 2.<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-6.png)<br>
 
 수동으로 글로벌 주소를 입력하는 방법입니다.<br>
-앞 64 비트는 2001:DB8::, 뒤 64비트는 ::2입니다. /64는 앞 64비트는 네트워용이라는 뜻입니다.<Br>
+앞 64 비트는 2001:DB8::, 뒤 64비트는 ::1입니다. /64는 앞 64비트는 네트워용입니다.<Br>
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-8.png)<br>
 
+이번에도 글로벌 주소입니다.<br>
+앞 64비트는 수동, 뒤 64비트는 MAC주소 기반 EUI-64방식으로 할당됩니다.<br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-9.png)<br>
 
+Anycast주소입니다. 글로벌 주소이며, 같은 네트워크 안에 같은 주소를 가진 장치가 존재할 수 있습니다.<br>
+통신 시에는, 라우팅상 최단 경로의 노드 하나만 선택해서 통신합니다<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;![image break](../../Pictur/step10/ipv6-10.png)<br>
 
