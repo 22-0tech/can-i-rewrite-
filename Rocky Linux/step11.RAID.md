@@ -35,13 +35,12 @@ RAID5 배열로 먼저 묶습니다.<br>
 
 묶인 RAID5를 RAID0으로 묶습니다.<br>
 <br>
-<br>
-<br>
-
 
 ![image break](../Pictur/step11/raid18.png)<br>
 
-
+RAID 구성이 완료된 상태를 볼 수 있습니다.
+<br>
+<Br>
 <br>
 <br>
 <Br>
@@ -54,7 +53,6 @@ RAID5 배열로 먼저 묶습니다.<br>
 
 표준은 아니지만, 이론상 가능합니다.<br>
 0+5의 필요 디스크 수는 6개입니다.<br>
-<br>
 <br>
 
 <br>
@@ -70,7 +68,8 @@ RAID0 배열 먼저 묶은 후, RAID5 배열로 묶어야 합니다.<br>
 ![image break](../Pictur/step11/raid21.png)<br>
 
 RAID0으로 전부 묶였고, 묶인 것들을 RAID5로 묶습니다.
-
+<br>
+<br>
 
 ![image break](../Pictur/step11/raid23.png)<br>
 <br>
@@ -81,7 +80,7 @@ RAID0으로 전부 묶였고, 묶인 것들을 RAID5로 묶습니다.
 ![image break](../Pictur/step11/raid24-.png)<br>
 
 
-확인해보면 
+RAID 구성이 완료된 상태를 볼 수 있습니다.
 
 
 
