@@ -1,22 +1,43 @@
-init → systemd (슈퍼 데몬)
+**booting<br>
+<Br>
+<br>
 
-예전엔 init이 런레벨 기반으로 시스템을 구동했지만
-지금은 systemd가 **서비스(데몬)**를 관리하는 핵심 프로세스입니다.
 
-즉, systemd는 모든 데몬(sshd, crond, quota 등)을 관리하는 "슈퍼 데몬"입니다.
 
-→ systemctl start quotaon.service 같은 식으로 쿼터도 systemd에서 관리 가능
+1.BIOS (Basic Input/Output System)<br>
+<br>
+PC를 켜면 먼저 바이오스가 작동합니다.<br>
+기본적인 하드웨어의 상태(ON-OFF)를 확인 후, 부팅 장치를 선택하여 그 디스크의 첫 섹터 512B(MBR)를 로딩합니다.<br>
+MBR에는 부트로더 위치 정보가 있습니다. 이를 메모리에 로딩해 2차 부팅 프로그램을 실행합니다<br>
 
-MBR → 부트 로더
-GRUB 부트 로더
-부트로더 → 리눅스 커널을 메모리에 적재
+BIOS 단계 : 하드웨어 검사 → 부팅장치 선택 → MBR 로드 → 부트 로더로드<br>
+<br>
+<Br>
 
-PID 1번
-프로그램 일련번호 1번
-systemd
 
-RHEL 6 → RHEL 7
-init → systemd
+2.부트 로더(GRUB)<br>
+
+오픈 소스인 리눅스 커널을 메모리에 로딩합니다.<br>
+<br>
+
+
+3. 커널 초기화 단계<br>
+
+시스템에 연결된 하드웨어를 사용 가능한 상태로 준비하고 커널을 초기화합니다. 이후 서비스 실행을 위해 '첫 번째' 프로세스를 생성합니다.<br>
+<br>
+<Br>
+
+4. Systemd 서비스 단계<br>
+
+systemd가 첫 번째 프로세스로 실행된 후, 핵심 서비스와 데몬이 활성화됩니다.<br>
+초기 프로세스인 init과의 호환성도 여전히 유지됩니다.<br>
+
+
+
+
+
+
+
 
 vi /etc/inittab
 
