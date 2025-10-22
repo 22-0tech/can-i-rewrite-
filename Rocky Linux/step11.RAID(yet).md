@@ -73,12 +73,15 @@ RAID0으로 전부 묶였고, 묶인 것들을 RAID5로 묶습니다.
 
 
 ![image break](../Pictur/step11/raid23.png)<br>
+<br>
+<Br>
+<Br>
+
 
 ![image break](../Pictur/step11/raid24-.png)<br>
 
 
-
-
+확인해보면 
 
 
 
