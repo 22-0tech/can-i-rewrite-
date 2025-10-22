@@ -58,7 +58,7 @@ lvm을 확인할 수 있습니다.
 <br>
 <br>
 
-* lvm Remove<Br>
+* Lvm Remove<Br>
 <Br>
 
 It can be performed in the reverse order of the creation process.<Br>
