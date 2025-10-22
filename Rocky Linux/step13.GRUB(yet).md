@@ -19,6 +19,8 @@ BIOS 단계 : 하드웨어 검사 → 부팅장치 선택 → MBR 로드 → 부
 
 오픈 소스인 리눅스 커널을 메모리에 로딩합니다.<br>
 <br>
+![image break](../Pictur/step13/GRUB1.png)<br>
+
 
 
 3. 커널 초기화 단계<br>
@@ -35,7 +37,7 @@ systemd가 첫 번째 프로세스로 실행된 후, 핵심 서비스와 데몬�
 
 
 
-
+![image break](../Pictur/step13/GRUB2.png)<br>
 
 
 
